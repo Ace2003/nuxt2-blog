@@ -70,7 +70,7 @@ export default {
           json = knowledgeList;
           break;
         case 'about':
-          return 'https://github.com/yunyuyuan/nuxt2-blog'
+          return 'https://github.com/Ace2003/nuxt2-blog'
         default:
           return '/'
       }
