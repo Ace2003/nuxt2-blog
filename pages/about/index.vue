@@ -36,7 +36,7 @@ export default {
   },
   computed: {
     commitUrl() {
-      return `https://github.com/Ace2003/nuxt2-blog`;
+      return `https://github.com/${config.githubName}/${config.githubRepo}/commit/${this.sha}`;
     },
   },
   data() {
